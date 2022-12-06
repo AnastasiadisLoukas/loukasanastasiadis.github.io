@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="first.css" />
+    <script src="clickity.js"></script>
+    <title>Loukas_Anastasiadis</title>
+  </head>
+  <body>
+    <div class="mygrid">
+      <div class="container" id="profile">
+        <div class="bannerimage"></div>
+        <h1>Profile</h1>
+
+        <img src="myc - Αντιγραφή.jpg" alt="" class="profile-img" />
+        <div class="mynameis">Loukas Anastasiadis</div>
+        <div class="description">
+          <small
+            ><img id="graduationicon" class="icons" src="gradu2.ico" alt="" />
+            Computer Science Graduate<br /><img
+              id="locationicon"
+              class="icons"
+              src="location.ico"
+              alt=""
+            />
+            Thessaloniki, Greece</small
+          >
+        </div>
+
+        <button
+          onclick="NewTab('https://www.linkedin.com/in/loukas-anastasiadis-5771b0170/')"
+          class="button"
+          type="button"
+          id="linkedin"
+        >
+          Linked<img id="linkedinicon" class="icons" src="forico.ico" alt="" />
+        </button>
+
+        <button
+          onclick="NewTab('https://github.com/AnastasiadisLoukas')"
+          class="button"
+          type="button"
+          id="github"
+        >
+          <img id="githubicon" class="icons" src="github.ico" alt="" />Github
+        </button>
+
+        <button
+          onclick="NewTab('https://www.instagram.com/loukas_anastasiadis/')"
+          class="button"
+          type="button"
+          id="instagram"
+        >
+          <img id="instagramicon" class="icons" src="insta.ico" alt="" />
+          Instagram
+        </button>
+        <a href="mailto: lou.ky@hotmail.com>"
+          ><button
+            class="button"
+            id="email"
+            type="button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img id="emailicon" class="icons" src="emaill.ico" alt="" />Email
+          </button></a
+        >
+        <form method="get" action="CV - Loukas Anastasiadis.pdf">
+          <!-- <a download="CV - Loukas Anastasiadis.pdf"> -->
+            <button class="button" id="cv" type="submit">
+              <img id="cvicon" class="icons" src="pdf.ico" alt="" />Download my
+              CV
+            </button>
+        </form>
+      </div>
+      <div class="container" id="about">
+        <h1>About me</h1>
+        I am hardworking self-educated graduate Student from Aristotle
+        University of Thessaloniki. Always friendly ,and thirsty for learning
+        and upgrading my skills. Of all the things computer science has to offer
+        , i value creativity the most. That is the main reason i started to code
+        and study algorithms and data structures. I like to look for smart ways
+        to make things automated and easier for everybody to use. My current
+        goal is to obtain certain skills and look for a job .I am very
+        interested in the
+        <span id="datascience">data science</span>
+        field , although i can easily fit in any environment. My future goal is
+        to become a full stack developer and be a valuable asset in my
+        workplace.
+      </div>
+      <div class="container" id="education">
+        <h1>Education and Training</h1>
+
+        <div class="grideducation">
+          <div class="containereducation" id="authlogo">
+            <!-- <img class ="logo" id="authlogo" src="auth-logo.png" alt="" /> -->
+          </div>
+          <div class="containereducation" id="authletters">
+            <h3>Aristotle University of Thessaloniki (AUTH)</h3>
+            Degree in Informatics <br />
+            <small
+            ><strong>Specialization field </strong> : Information
+              Systems</small
+            >
+            <br />
+            2013 - 2021
+          </div>
+          <div class="containereducation" id="udeimage1">
+            <!-- <img class="logo" src="udemy.png" alt="" /> -->
+          </div>
+          <div class="containereducation" id="udemyletters1">
+            <h3 class="udemy">
+              Python for Data Science and Machine Learning Bootcamp
+            </h3>
+            <small>by Jose Portilla</small><br />
+            <button
+              onclick="NewTab('https://www.udemy.com/certificate/UC-537b33f0-9ac9-40fd-b5bc-d80f793ec611/')"
+              class="credential"
+              type="button"
+              id="credential1"
+            >
+              Show Credential
+            </button>
+          </div>
+
+          <div class="containereducation" id="udeimage2">
+            <!-- <img class="logo" src="udemy.png" alt="" /> -->
+          </div>
+          <div class="containereducation" id="udemyletters2">
+            <h3 class="udemy">
+              2022 Complete Python Bootcamp From Zero to Hero in Python
+            </h3>
+            <small>by Jose Portilla</small><br />
+            <button
+              onclick="NewTab('https://www.udemy.com/certificate/UC-89d6f62e-4d9c-48fe-9e97-d0c2e1dd95bd/')"
+              class="credential"
+              type="button"
+              id="credential2"
+            >
+              Show Credential
+            </button>
+          </div>
+
+          <div class="containereducation" id="colmooc">
+            <!-- <img class="logo" src="colmooc (1).png" alt="" /> -->
+          </div>
+          <div class="containereducation" id="colmoocletters">
+            <h3 class="udemy">Programming in Python for non-programmers</h3>
+            <small
+              >Co-funded by the Erasmus+ Programme of the European Union</small
+            ><br />
+            <button
+              onclick="NewTab('https://colmooc.gunet.gr/main/out.php?i=9366843126074000b5876d')"
+              class="credential"
+              type="button"
+              id="credential3"
+            >
+              Show Credential
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="languages">
+        <h1>Languages</h1>
+        <ul>
+          <li>Greek (Mother tongue)</li>
+          <li>English (C2)</li>
+          <li>German (A1)</li>
+          <li>divish (A1)</li>
+        </ul>
+      </div>
+      <div class="container" id="skills">
+        <h1>Skills</h1>
+        <div class="supergrid">
+          <div class="tools">Python</div>
+          <div class="tools">SQL</div>
+          <div class="tools">C</div>
+          <div class="tools">C++</div>
+          <div class="tools">Java</div>
+          <div class="tools">Javascript</div>
+          <div class="tools">CSS</div>
+          <div class="tools">HTML</div>
+          <div class="tools">Pandas</div>
+          <div class="tools">Matlab</div>
+          <div class="tools">Seaborn</div>
+          <div class="tools">Matplotlib</div>
+          <div class="tools">R</div>
+          <div class="ide">Microsoft Office</div>
+
+          <div class="ide">Jupyter</div>
+          <div class="ide">Pycharm</div>
+          <div class="ide">Visual Studio Code</div>
+          <div class="ide">Netbeans</div>
+          <div class="ide">Code::Blocks</div>
+          <div class="industry">Data Structures</div>
+          <div class="industry">Algorithms</div>
+          <div class="industry">Data Analysis</div>
+          <div class="industry">Machine Learning</div>
+          <div class="industry">Web Development</div>
+          <div class="industry">Mathematics</div>
+          <div class="soft">Communication</div>
+          <div class="soft">Analytical Abilities</div>
+          <div class="soft">Creativity</div>
+          <div class="soft">Problem Solving</div>
+          <div class="soft">Perseverance</div>
+          <div class="soft">Curiosity</div>
+          <div class="soft">Interest in Helping Others</div>
+          <div class="soft">Determination</div>
+          <div class="soft">Resilience</div>
+          <div class="soft">Humility</div>
+          <div class="soft">Patience</div>
+        </div>
+      </div>
+      <div class="container" id="work">
+        <h1>Work Experience</h1>
+        <ul>
+          <li>
+            <h3>Library Assistant</h3>
+            <small
+              >Aristotle University of Thessaloniki <br /><date
+                >06/11/2020 - 30/08/2021</date
+              ></small
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="container" id="projects">
+        <h1>Projects</h1>
+        <ul>
+          <li>
+            <h3>Discord Bot for flexible learning (in Python)</h3>
+            <small
+              >Organizes all the members and the servers ,in which the bot is
+              active, in a relational database using sql code(sqlite3) securing
+              that every member has a unique account in all those servers. Reads
+              docx files for creating an online test with different types of
+              questions ,which are stored in memory in an object oriented way
+              ,and creates docx files based on student answers. A smart agent
+              feature is also implemented within the code to let students work
+              in groups and present questions that are triggered by certain
+              words the teacher choses. The questions can also be organized in
+              the form of a questionnaire. Statistical data can be extracted
+              based on the answers from both the tests or the questionnaire .
+              Lastly it contains a lot of extra functionality like foul language
+              filter , appointing roles by reacting to a message etc.</small
+            >
+          </li>
+          <li>
+            <h3>.doc to .docx converter with python gui (tkinter)</h3>
+            <small
+              >As part of a program i built to read military reports and create
+              a confidential final report for military purposes automating the
+              whole format process using the .docx python library.</small
+            >
+          </li>
+          <li>
+            <h3>Other projects</h3>
+            <small
+              >Other projects in C , C++, Java , SQL , Matlab , Prolog , Pspice
+              ,Logisim as part of my education in University.
+            </small>
+          </li>
+        </ul>
+      </div>
+      <div class="container" id="military">
+        <h1>Military Service</h1>
+        <ul>
+          <li>
+            <h3>Electronic Warfare Systems Operator</h3>
+            <date>15/11/2021 - 15/08/2022</date>
+          </li>
+        </ul>
+        <div><img id="militaryimage" src="military.png" alt="" /></div>
+      </div>
+      <div class="container" id="volunteering">
+        <h1>Volunteering</h1>
+
+        <ul>
+          <li>
+            <h3>Substitute leader to the Scouts team</h3>
+            <small
+              >Organize games and activities for 11-15 year old kids , teach
+              them to respect nature and how to adapt in their environment while
+              having fun . Develop decision making , social and leading skills
+              as well as a sense of responsibility.<br /><br />Scouts of Greece
+              membership<br /><strong
+                ><date>15/09/2006 - 30/09/2013</date></strong
+              ></small
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="container" id="hobbies">
+        <h1>Hobbies and interests</h1>
+
+        <ul>
+          <li>Going at the gym</li>
+          <li>Going out with friends</li>
+          <li>Watching tv series</li>
+          <li>Thinking outside the box</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
